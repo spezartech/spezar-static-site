@@ -1,0 +1,241 @@
+  .about-us-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:30px 30px;
+    width: 100%;
+    height: 320px;
+    background-image: url('backgroundforaboutus.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /*.about-us-container {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .about-us-container.reveal {
+    opacity: 1;
+    transform: translateY(0);
+  }*/
+  
+  .about-us-content {
+  flex: 1 1 200px;
+  margin-right: 100px;
+  margin-left: 100px;
+  display: inline-block;
+  }
+  .heading h5{
+    color: rgb(160, 42, 12);
+    font-size: 22px;
+    margin:2%;
+  }
+  .content p{
+    color:black;
+    font-size: 18px;
+  }
+  .underline {
+    text-decoration: underline;
+  }
+  .about-us-images {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    position: relative;
+    width: fit-content; /* Adjust width as needed */
+    height: 100%; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
+  .about-us-images .image {
+    max-width: 280px;
+    height: 250px;
+  }
+  
+  /*.about-us-images {
+    position: relative;
+    width: 80%; /* Adjust width as needed 
+    height: 100%; /* Adjust height as needed 
+    overflow: hidden;
+  }*/
+  
+ /* .about-us-images img {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    /* Adjust animation duration as needed 
+  }*/
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    .about-us-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      padding:1px 1px;
+      height: 550px;
+      background-image: url('backgroundforaboutus.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+   .about-us-content {
+    margin-right: 35px;
+    margin-left: 35px;
+    flex:none;
+      }
+      .heading h5{
+        color: rgb(160, 42, 12);
+        font-size: 20px;
+        margin:2%;
+      }
+      .content p{
+        color:black;
+        font-size: 15px;
+       
+      }
+      .underline {
+        text-decoration: underline;
+      }
+      .about-us-images {
+        top: auto;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .about-us-images .image {
+        max-width: 280px;
+        height: 80%;
+      }
+  }
+  @media (min-width: 481px) and (max-width: 768px){
+    .about-us-container {
+      display:flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      height: 448px;
+      background-image: url('backgroundforaboutus.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+   .about-us-content {
+    margin-right: 20px;
+    margin-left: 20px;
+    flex:none;
+      }
+      .heading h5{
+        color: rgb(160, 42, 12);
+        font-size: 20px;
+        margin:2%;
+      }
+      .content p{
+        color:black;
+        font-size: 15px;
+       
+      }
+      .underline {
+        text-decoration: underline;
+      }
+      .about-us-images {
+        top: 3%;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .about-us-images .image {
+        max-width: 280px;
+        height: 80%;
+      }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .about-us-container {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    height:311px;
+    background-image: url('backgroundforaboutus.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .about-us-content {
+    margin-right: 20px;
+    margin-left: 20px;
+    height: fit-content;
+    }
+    .heading h5{
+      color: rgb(160, 42, 12);
+      font-size: 20px;
+        margin:2%;
+    }
+    .content p{
+      color:black;
+      font-size: 15px;
+     
+    }
+    .underline {
+      text-decoration: underline;
+    }
+    .about-us-images {
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      height: fit-content;
+      bottom: -6%;
+    }
+    
+    .about-us-images .image {
+      max-width: 280px;
+      height: 223px;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .about-us-container {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+    background-image: url('backgroundforaboutus.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .about-us-content {
+    margin-right: 20px;
+    margin-left: 20px;
+    height: fit-content;
+    }
+    .heading h5{
+      color: rgb(160, 42, 12);
+      font-size: 20px;
+        margin:2%;
+    }
+    .content p{
+      color:black;
+      font-size: 18px;
+     
+    }
+    .underline {
+      text-decoration: underline;
+    }
+    .about-us-images {
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      height: fit-content;
+      bottom: -4%;
+    }
+    
+    .about-us-images .image {
+      max-width: 280px;
+      height: 250px;
+    }
+}

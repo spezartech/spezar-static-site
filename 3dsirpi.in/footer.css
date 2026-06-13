@@ -1,0 +1,49 @@
+footer {
+    background-color:darkgrey;
+    padding: 10px;
+    text-align: center;
+}
+footer p{
+    color: white;
+    font-size: 15px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    footer {
+        background-color:darkgrey;
+        text-align: center;
+    }
+    footer p{
+        color: white;
+        font-size: 10px;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    footer {
+        background-color:darkgrey;
+        text-align: center;
+    }
+    footer p{
+        color: white;
+        font-size: 12px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    footer {
+        background-color:darkgrey;
+        text-align: center;
+    }
+    footer p{
+        color: white;
+        font-size: 12px;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+    footer {
+        background-color:darkgrey;
+        text-align: center;
+    }
+    footer p{
+        color: white;
+        font-size: 12px;
+    }
+}
